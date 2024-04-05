@@ -73,7 +73,7 @@ function response() {
  *
  * @returns - An object containing methods for defining routes and starting the server.
  */
-function framework() {
+function netio() {
   const routes = {
     GET: {},
     POST: {},
@@ -130,7 +130,7 @@ function framework() {
   };
 }
 
-const app = framework();
+const app = netio();
 
 // Define routes
 app.route("GET", "/", function () {
